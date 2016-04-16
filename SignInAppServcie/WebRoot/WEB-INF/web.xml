@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>VideoAppService</display-name>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>cn.edu.fjnu.videoappservice.service.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>FileUploadServlet</servlet-name>
+    <servlet-class>cn.edu.fjnu.videoappservice.service.servlet.FileUploadServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetAllUsers</servlet-name>
+    <servlet-class>cn.edu.fjnu.videoappservice.service.servlet.GetAllUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>cn.edu.fjnu.videoappservice.service.servlet.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetAllOnlineUsers</servlet-name>
+    <servlet-class>cn.edu.fjnu.videoappservice.service.servlet.GetAllOnlineUsers</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RegisterOnlineServlet</servlet-name>
+    <servlet-class>cn.edu.fjnu.videoappservice.service.servlet.RegisterOnlineServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RequestOfflineServlet</servlet-name>
+    <servlet-class>cn.edu.fjnu.videoappservice.service.servlet.RequestOfflineServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetUploadPhotoServlet</servlet-name>
+    <servlet-class>cn.edu.fjnu.videoappservice.service.servlet.GetUploadPhotoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PersonDataChangeServlet</servlet-name>
+    <servlet-class>cn.edu.fjnu.videoappservice.service.servlet.PersonDataChangeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HeadPhotoUploadServlet</servlet-name>
+    <servlet-class>cn.edu.fjnu.videoappservice.service.servlet.HeadPhotoUploadServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CreateSignInfoServlet</servlet-name>
+    <servlet-class>cn.edu.fjnu.videoappservice.service.servlet.CreateSignInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetAllSignInfoServlet</servlet-name>
+    <servlet-class>cn.edu.fjnu.videoappservice.service.servlet.GetAllSignInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SignInRecordServlet</servlet-name>
+    <servlet-class>cn.edu.fjnu.videoappservice.service.servlet.SignInRecordServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetSignRecordServlet</servlet-name>
+    <servlet-class>cn.edu.fjnu.videoappservice.service.servlet.GetSignRecordServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginService</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FileUploadServlet</servlet-name>
+    <url-pattern>/FileUploadService</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetAllUsers</servlet-name>
+    <url-pattern>/GetAllUserService</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/RegisterService</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetAllOnlineUsers</servlet-name>
+    <url-pattern>/GetAllOnlineUserService</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterOnlineServlet</servlet-name>
+    <url-pattern>/RegisterOnlineService</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RequestOfflineServlet</servlet-name>
+    <url-pattern>/RequestOfflineService</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetUploadPhotoServlet</servlet-name>
+    <url-pattern>/GetUploadPhotoService</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PersonDataChangeServlet</servlet-name>
+    <url-pattern>/PersonDataChangeService</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HeadPhotoUploadServlet</servlet-name>
+    <url-pattern>/HeadPhotoUploadService</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CreateSignInfoServlet</servlet-name>
+    <url-pattern>/CreateSignInfoService</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetAllSignInfoServlet</servlet-name>
+    <url-pattern>/GetAllSignInfoService</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SignInRecordServlet</servlet-name>
+    <url-pattern>/SignInRecordService</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetSignRecordServlet</servlet-name>
+    <url-pattern>/GetSignRecordService</url-pattern>
+  </servlet-mapping>
+  
+  
+</web-app>
